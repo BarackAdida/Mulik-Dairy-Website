@@ -1,8 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
-    color: white;
-    /* background-color: #121212; */
-    background: url('assets/icon.png') no-repeat center center fixed;
+    color: black;
+    /* background-color: white; */
+    background: url('assets/image.png') no-repeat center center fixed;
     background-size: cover;
     filter: brightness(100%);
     margin: 0;
@@ -29,17 +29,20 @@ body {
 }
 
 .card {
-    background: #1e1e1e;
+    /* background: #1e1e1e; */
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: left;
+    background: transparent;
+    background: #6626bd;
 }
 
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    background: transparent;
 }
 
 h1 {
